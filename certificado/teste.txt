@@ -1,1 +1,3 @@
+LINUX:EXEC("chmod -R 777 hsist-esocial")
 
+LINUX:EXEC("cp certificados/cap2024.pfx hsist-esocial/cap2024.pfx")
