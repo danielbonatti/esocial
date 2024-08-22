@@ -1,3 +1,7 @@
+LINUX:EXEC("git clone https://github.com/danielbonatti/hsist-esocial.git")
+
+LINUX:EXEC("git -C hsist-esocial reset --hard origin/main")
+
 LINUX:EXEC("chmod -R 777 hsist-esocial")
 
 LINUX:EXEC("cp certificados/cap2024.pfx hsist-esocial/cap2024.pfx")
